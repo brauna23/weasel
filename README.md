@@ -4,7 +4,7 @@ Simulate the evolution of digital individuals (An implementation of Richard Dawk
 
 <img src="https://raw.githubusercontent.com/paternogbc/weasel/master/img/weasel_logo.jpg" width="180">
 
-The [Weasel Algorithm](https://en.wikipedia.org/wiki/Weasel_program) was developed by [Richard Dawkings](https://en.wikipedia.org/wiki/Richard_Dawkins) to demonstrate how random variation combined with non-random cumulative selection can drive evolutionary change. 
+The [Weasel Algorithm](https://en.wikipedia.org/wiki/Weasel_program) was developed by [Richard Dawkins](https://en.wikipedia.org/wiki/Richard_Dawkins) to demonstrate how random variation combined with non-random cumulative selection can drive evolutionary change. 
 
 ## Before you start
 
