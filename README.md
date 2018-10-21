@@ -1,6 +1,6 @@
 # Weasel
 
-Program that simulate the evolution of digital individuals (Based on Richard Dawkins algorithm Weasel)
+Simulate the evolution of digital individuals (An implementation of Richard Dawkins Weasel algorithm)
 
 <img src="https://raw.githubusercontent.com/paternogbc/weasel/master/img/weasel_logo.jpg" width="180">
 
