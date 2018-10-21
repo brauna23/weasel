@@ -10,7 +10,7 @@ The [Weasel Algorithm](https://en.wikipedia.org/wiki/Weasel_program) was develop
 
 1. Install the following R packages:  
 
-```{r}
+```r
 install.packages("ggplot2")
 install.packages("stringdist")
 install.packages("reshape2")
