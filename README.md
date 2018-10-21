@@ -36,14 +36,14 @@ source_url(url = "https://raw.githubusercontent.com/paternogbc/weasel/master/R/w
 - __start.phrase:__ Start phrase (default = random string with 28 letters)  
 
 ### Run weasel
-```{r}
+```r
 res <- weasel(mutat = .05, gener = 1000, pop.n = 200, phrase = "METHINKS IT IS LIKE A WEASEL")
 ```
 
 <img src="https://raw.githubusercontent.com/paternogbc/weasel/master/img/run.gif" width="400">
 
 ### Get the evolutionary trajectory:
-```{r}
+```r
 head(res$simulation)
 tail(res$simulation)
 
@@ -57,9 +57,9 @@ res$solution
 res$Ngeneration
 ```
 
-### Plot fitness and mutations type
+### Plot fitness and mutations curves
 
-```{r}
+```r
 ### Plot fitness curve
 res$plot.fitness
 
