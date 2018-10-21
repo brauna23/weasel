@@ -3,33 +3,34 @@ library(ggplot2)
 library(stringdist)
 library(reshape2)
 library(ggpubr)
+library(devtools)
 
 ### Source Weasel function:
-source("R/weasel.R")
+source_url(url = "https://raw.githubusercontent.com/paternogbc/weasel/master/R/weasel.R")
 
-fit <- weasel(mutat = .05, phrase = "METHINKS IT IS LIKE A WEASEL", pop.n = 200)
+res <- weasel(mutat = .05, phrase = "METHINKS IT IS LIKE A WEASEL", pop.n = 200)
 
 ### Get the evolution progress:
-head(fit$simulation)
-tail(fit$simulation)
+head(res$simulation)
+tail(res$simulation)
 
 ### Start phrase:
-fit$start
+res$start
 
 ### Solution
-fit$solution
+res$solution
 
 ### Number of generations to reach solution
-fit$Ngeneration
+res$Ngeneration
 
-### Plot fitness curveL
-fit$plot.fitness
+### Plot fitness curve
+res$plot.fitness
 
 ### Plot Mutations curve (N)
-fit$plot.mutations
+res$plot.mutations
 
 ### Plot Mutations curve (%)
-fit$plot.relative
+res$plot.relative
 
 ### Plot all graphs:
-fit$plot.all
+res$plot.all

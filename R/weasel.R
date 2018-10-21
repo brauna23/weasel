@@ -3,7 +3,7 @@
 ### Last update: 28/03/2018
 ### Requires packages: ggplot2 & stringdist installed
 
-weasel <- function(phrase = "Sorry, but evolution is true!", pop.n = 100, mutat = .01, gener = 400, method = "hamming",
+weasel <- function(phrase = "METHINKS IT IS LIKE A WEASEL", pop.n = 200, mutat = .05, gener = 400, method = "hamming",
                    case.sensitive = "CAPS", spe.char = FALSE, track = TRUE, wait  = .01,  seed = NULL,
                    start.phrase = NULL, wait.0 = 0, genome = NULL)
 {
